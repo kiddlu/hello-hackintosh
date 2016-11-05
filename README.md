@@ -17,7 +17,10 @@
     Displays：Dell P2416D/P2414H
 
 显卡不推荐N卡，我出过莫名其妙的冻瓶问题，而且网上几乎说几乎无解。<br>HD7750强烈推荐"铭影2GD5 900/4500MHZ 2G/128BIT", 2K以下的显示器随便carry，而且不需要外部供电，免驱，HiDPI能打到最高分辨录。<br>WiFi网卡我买的是TP-LINK TL-WDN4800，免驱，直接用。WiFi USB dongle则是腾讯全民WiFi，便宜，以备不时之需。<br>Bluetooth dongle是胜为UDC324。<br>显示器HP的也可以。<br>
-至于主板，CPU，内存，HDD，SSD这些，选通用的就行，一般不会出什么问题。<br>手头上没有的，可以去http://www.tonymacx86.com/上看看2013和2014年的Buyer's Guide，硬件不要太新，否则10.9.5 drive不动。
+至于主板，CPU，内存，HDD，SSD这些，选通用的就行，一般不会出什么问题。<br>手头上没有的，可以去 http://www.tonymacx86.com/ 上看看2013和2014年的Buyer's Guide，硬件不要太新，否则10.9.5 drive不动。
+
+##Windows
+我的Hackintosh，是在Windows已经安装好之后的，再安装MacOS的双系统电脑。
 
 ##Boot
 Hackintosh的引导跟普通的Mac是不同的，一般来说可选的引导也就Clover和Chameleon，我自己一般用MBR，从Windows的Boot Configuration Data(BCD)引导到Chameleon，Chameleon再拉起MacOS。
@@ -93,3 +96,15 @@ Hackintosh的引导跟普通的Mac是不同的，一般来说可选的引导也�
        	<string>Yes</string>
 	</dict>
 	</plist>
+
+##Driver
+到了这里其实已经可以省心了，去下载一个MultiBeast-Mavericks-Edition-6.5.1，就包含了常用到的声卡和有线网卡驱动，安装上就行。不过我一般用蓝牙和WiFi，所以，上面那几个东西驱动好了，这些也无所谓。<br>[Softpedia](http://mac.softpedia.com/get/System-Utilities/MultiBeast.shtml#download)
+
+##Snapshot
+
+![](https://github.com/kiddlu/hello-hackintosh/raw/master/res/01.png)
+
+![](https://github.com/kiddlu/hello-hackintosh/raw/master/res/02.png)
+
+##End
+到此为止，基本上已经是一台体验不错的Hackintosh了。我的软件环境布置会在专门将MacOS部署的专题讲述。
