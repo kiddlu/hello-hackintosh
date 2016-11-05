@@ -20,7 +20,7 @@
 至于主板，CPU，内存，HDD，SSD这些，选通用的就行，一般不会出什么问题。<br>手头上没有的，可以去 http://www.tonymacx86.com/ 上看看2013和2014年的Buyer's Guide，硬件不要太新，否则10.9.5 drive不动。
 
 ##Windows
-我的Hackintosh，是在Windows已经安装好之后的，再安装MacOS的双系统电脑。
+我的Hackintosh，是在Windows已经安装好之后的，再安装MacOS的双系统电脑。So，Windows下有几个工具很重要，一个叫ddmac，另外一个叫transmac。有这两个东西，transmac的试用期是15天，应该够用吧？我暂时没有找到好的替代工具。
 
 ##Boot
 Hackintosh的引导跟普通的Mac是不同的，一般来说可选的引导也就Clover和Chameleon，我自己一般用MBR，从Windows的Boot Configuration Data(BCD)引导到Chameleon，Chameleon再拉起MacOS。
@@ -107,4 +107,4 @@ Hackintosh的引导跟普通的Mac是不同的，一般来说可选的引导也�
 ![](https://github.com/kiddlu/hello-hackintosh/raw/master/res/02.png)
 
 ##End
-到此为止，基本上已经是一台体验不错的Hackintosh了。我的软件环境布置会在专门将MacOS部署的专题讲述。
+到此为止，基本上已经是一台体验不错的Hackintosh了。我的操作系统软件环境布置，可以直接去 https://github.com/kiddlu/posix 下找mac的一键部署脚本。
