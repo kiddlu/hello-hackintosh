@@ -24,6 +24,43 @@ Hackintosh的引导跟普通的Mac是不同的，一般来说可选的引导也�
 
 我的BCD配置
 
+	Windows Boot Manager
+	--------------------
+	identifier              {bootmgr}
+	device                  partition=C:
+	description             Windows Boot Manager
+	locale                  zh-CN
+	inherit                 {globalsettings}
+	default                 {default}
+	resumeobject            {db68b149-55b2-11e6-abde-de4757fa2150}
+	displayorder            {current}
+							{default}
+	toolsdisplayorder       {memdiag}
+	timeout                 1
+	
+	Windows Boot Loader
+	-------------------
+	identifier              {current}
+	device                  boot
+	path                    \windows\system32\winload.exe
+	description             Windows 7 Ultimate x64
+	locale                  zh-CN
+	inherit                 {bootloadersettings}
+	recoverysequence        {e78c39b7-55b2-11e6-abde-de4757fa2150}
+	recoveryenabled         Yes
+	osdevice                boot
+	systemroot              \windows
+	resumeobject            {db68b149-55b2-11e6-abde-de4757fa2150}
+	nx                      OptIn
+	detecthal               Yes
+	
+	Real-mode Boot Sector
+	---------------------
+	identifier              {default}
+	device                  boot
+	path                    \Avldr.bin
+	description             MacOS X 10.9.5
+
 我的Chameleon配置
 
 	<?xml version="1.0" encoding="UTF-8"?>
