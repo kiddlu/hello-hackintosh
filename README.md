@@ -14,13 +14,13 @@
     WiFi：Atheros AR9380(PCI-E), MTK MT7601(USB)
     Bluetooth：Broadcom 20702(USB)
     Graphics：AMD Radeon HD 7750/5770(PCI-E)
-    Displays：Dell P2416D/P2414H
+    Displays：Dell P2416D/HP E241i
 
-显卡不推荐N卡，我出过莫名其妙的冻瓶问题，而且网上几乎说几乎无解。<br>HD7750强烈推荐"铭影2GD5 900/4500MHZ 2G/128BIT", 2K以下的显示器随便carry，而且不需要外部供电，免驱，HiDPI能打到最高分辨录。<br>WiFi网卡我买的是TP-LINK TL-WDN4800，免驱，直接用。WiFi USB dongle则是腾讯全民WiFi，便宜，以备不时之需。<br>Bluetooth dongle是胜为UDC324。<br>显示器HP的也可以。<br>
+显卡不推荐N卡，我出过莫名其妙的冻瓶问题，而且网上几乎说几乎无解。<br>1080p的屏幕，推荐用HD7750"铭影2GD5 900/4500MHZ 2G/128BIT", 不需要外部供电，免驱，HiDPI能打到超过屏幕分辨录。2K屏幕用HD5770，毕竟Mac Pro原配。<br>WiFi网卡我买的是TP-LINK TL-WDN4800，免驱，直接用。WiFi USB dongle则是腾讯全民WiFi，便宜，以备不时之需。<br>Bluetooth dongle是胜为UDC324。<br>显示器HP的也可以。<br>
 至于主板，CPU，内存，HDD，SSD这些，选通用的就行，一般不会出什么问题。<br>手头上没有的，可以去 http://www.tonymacx86.com/ 上看看2013和2014年的Buyer's Guide，硬件不要太新，否则10.9.5 drive不动。
 
 ##Windows
-我的Hackintosh，是在Windows已经安装好之后的，再安装MacOS的双系统电脑。So，Windows下有几个工具很重要，一个叫ddmac，另外一个叫transmac。有这两个东西，transmac的试用期是15天，应该够用吧？我暂时没有找到好的替代工具。
+我的Hackintosh，是在Windows已经安装好之后的，再安装MacOS的双系统电脑。So，Windows下有几个工具很重要，一个叫ddmac，另外一个叫transmac，transmac的试用期是15天，应该够用吧？我暂时没有找到好的替代工具。
 
 ##Boot
 Hackintosh的引导跟普通的Mac是不同的，一般来说可选的引导也就Clover和Chameleon，我自己一般用MBR，从Windows的Boot Configuration Data(BCD)引导到Chameleon，Chameleon再拉起MacOS。
