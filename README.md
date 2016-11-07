@@ -110,3 +110,10 @@ Hackintosh的引导跟普通的Mac是不同的，一般来说可选的引导也�
 
 ##End
 到此为止，基本上已经是一台体验不错的Hackintosh了。我的操作系统软件环境布置，可以直接去 https://github.com/kiddlu/posix 下找mac的一键部署脚本。
+
+##Links:
+https://www.tonymacx86.com/threads/radeon-compatibility-guide-ati-amd-graphics-cards.171291/
+
+https://www.tonymacx86.com/threads/amd-radeon-hd-7xxx-graphics-support-in-os-x-10-8-3.93318/
+
+https://www.tonymacx86.com/threads/list-of-confirmed-radeon-hd-7xxx-series-10-8-3.92952/
