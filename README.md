@@ -17,7 +17,7 @@
     Graphics：AMD Radeon HD 7750/5770(PCI-E)
     Displays：Dell P2416D/HP E241i
 
-显卡不推荐N卡，我出过莫名其妙的冻瓶问题，而且网上几乎说几乎无解。<br>1080p的屏幕，推荐用HD7750，免驱，HiDPI能打到超过屏幕分辨录。2K屏幕用HD5770，毕竟Mac Pro原配。<br>WiFi网卡我买的是TP-LINK TL-WDN4800，免驱，直接用。WiFi USB dongle则是腾讯全民WiFi，便宜，以备不时之需。<br>Bluetooth dongle是胜为UDC324。<br>Combo芯片推荐MacBook上那几款原装，需要去淘宝一个Mini PCIe到PCIe的转接板。<br>
+显卡不推荐N卡，我出过莫名其妙的冻瓶问题，而且网上几乎说几乎无解。<br>1080p的屏幕，推荐用HD7750，免驱，HiDPI能打到超过屏幕分辨录。2K屏幕用HD5770，毕竟Mac Pro原配。<br>WiFi网卡我买的是TP-LINK TL-WDN4800，免驱，直接用。WiFi USB dongle则是腾讯全民WiFi，便宜，以备不时之需。<br>Bluetooth dongle是胜为UDC324。蓝牙音箱是JBL GO。<br>Combo芯片推荐MacBook上那几款原装，需要去淘宝一个Mini PCIe到PCIe的转接板。<br>
 至于主板，CPU，内存，HDD，SSD这些，选通用的就行，一般不会出什么问题。<br>手头上没有的，可以去 http://www.tonymacx86.com/ 上看看2013和2014年的Buyer's Guide，硬件不要太新，否则10.9.5 drive不动。
 
 
